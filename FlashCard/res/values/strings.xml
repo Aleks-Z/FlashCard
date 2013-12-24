@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FlashCard</string>
+    <string name="about">About</string>
+    <string name="clear">Clear</string>
+    <string name="time">Time</string>
+    <string name="correct_answer">Correct Answer</string>
+    <string name="category">Category</string>
+	<string name="icon">@drawable/bread</string>
+	<string name="menu_button">Menu</string>
+	<string name="next_test">Next Test</string>
+	<string name="repeat">Repeat</string>
+
+
+
+
+</resources>

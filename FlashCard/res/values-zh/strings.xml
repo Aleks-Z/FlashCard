@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about">关于</string>
+    <string name="clear">明确</string>
+    <string name="time">时间</string>
+    <string name="correct_answer">正确答案</string>
+    <string name="category">类别</string>
+
+
+
+</resources>

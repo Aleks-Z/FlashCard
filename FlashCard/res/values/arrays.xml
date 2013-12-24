@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="icon_animals">
+		<item>@drawable/bird</item>
+		<item>@drawable/butterfly</item>
+		<item>@drawable/cat</item>
+		<item>@drawable/chicken</item>
+		<item>@drawable/cow</item>
+		<item>@drawable/dog</item>
+		<item>@drawable/dragon</item>
+		<item>@drawable/duck</item>
+		<item>@drawable/elephant</item>
+		<item>@drawable/fish</item>
+		<item>@drawable/goat</item>
+		<item>@drawable/horse</item>
+		<item>@drawable/lion</item>
+		<item>@drawable/monkey</item>
+		<item>@drawable/mouse</item>
+		<item>@drawable/pet</item>
+		<item>@drawable/pig</item>
+		<item>@drawable/rabbit</item>
+		<item>@drawable/rat</item>
+		<item>@drawable/rooster</item>
+		<item>@drawable/sheep</item>
+		<item>@drawable/snake</item>
+		<item>@drawable/spider</item>
+		<item>@drawable/tiger</item>
+	</array>
+	<array name="icon_body_parts">
+		<item>@drawable/arm</item>
+		<item>@drawable/eye</item>
+		<item>@drawable/face</item>
+		<item>@drawable/foot</item>
+		<item>@drawable/hand</item>
+		<item>@drawable/leg</item>
+		<item>@drawable/mouth</item>
+		<item>@drawable/nose</item>
+	</array>
+	<array name="icon_clothes">
+		<item>@drawable/coat</item>
+		<item>@drawable/glove</item>
+		<item>@drawable/hat</item>
+		<item>@drawable/scarf</item>
+		<item>@drawable/shirt</item>
+		<item>@drawable/shoe</item>
+		<item>@drawable/skirt</item>
+		<item>@drawable/socks</item>
+		<item>@drawable/trousers</item>
+	</array>
+	<array name="icon_colors">
+		<item>@drawable/black</item>
+		<item>@drawable/blue</item>
+		<item>@drawable/brown</item>
+		<item>@drawable/green</item>
+		<item>@drawable/grey</item>
+		<item>@drawable/pink</item>
+		<item>@drawable/purple</item>
+		<item>@drawable/red</item>
+		<item>@drawable/white</item>
+		<item>@drawable/yellow</item>
+	</array>
+	<array name="icon_countries">
+		<item>@drawable/africa</item>
+		<item>@drawable/asia</item>
+		<item>@drawable/australia</item>
+		<item>@drawable/britain</item>
+		<item>@drawable/china</item>
+		<item>@drawable/europe</item>
+		<item>@drawable/germany</item>
+		<item>@drawable/india</item>
+		<item>@drawable/ireland</item>
+		<item>@drawable/italy</item>
+		<item>@drawable/japan</item>
+		<item>@drawable/russia</item>
+		<item>@drawable/spain</item>
+		<item>@drawable/sweden</item>
+		<item>@drawable/united_states</item>
+	</array>
+	<array name="icon_directions">
+		<item>@drawable/down</item>
+		<item>@drawable/east</item>
+		<item>@drawable/left</item>
+		<item>@drawable/north</item>
+		<item>@drawable/right</item>
+		<item>@drawable/south</item>
+		<item>@drawable/up</item>
+		<item>@drawable/west</item>
+	</array>
+	<array name="icon_drinks">
+		<item>@drawable/apple_juice</item>
+		<item>@drawable/beer</item>
+		<item>@drawable/coffee</item>
+		<item>@drawable/cola</item>
+		<item>@drawable/milk</item>
+		<item>@drawable/mineral_water</item>
+		<item>@drawable/orange_juice</item>
+		<item>@drawable/tea</item>
+		<item>@drawable/wine</item>
+	</array>
+	<array name="icon_electronics">
+		<item>@drawable/camera</item>
+		<item>@drawable/cd</item>
+		<item>@drawable/computer</item>
+		<item>@drawable/keyboard</item>
+		<item>@drawable/mobile_phone</item>
+		<item>@drawable/radio</item>
+		<item>@drawable/telephone</item>
+		<item>@drawable/tv</item>
+	</array>
+	<array name="icon_food">
+		<item>@drawable/bread</item>
+		<item>@drawable/cheese</item>
+		<item>@drawable/cooked_rice</item>
+		<item>@drawable/dumplings</item>
+		<item>@drawable/egg</item>
+		<item>@drawable/fried_rice</item>
+		<item>@drawable/ham</item>
+		<item>@drawable/hamburger</item>
+		<item>@drawable/meat</item>
+		<item>@drawable/pizza</item>
+		<item>@drawable/salad</item>
+		<item>@drawable/sausage</item>
+		<item>@drawable/soup</item>
+	</array>
+	<array name="icon_fruits">
+		<item>@drawable/apple</item>
+		<item>@drawable/banana</item>
+		<item>@drawable/fruit</item>
+		<item>@drawable/grapes</item>
+		<item>@drawable/lemon</item>
+		<item>@drawable/melon</item>
+		<item>@drawable/orange</item>
+		<item>@drawable/peach</item>
+		<item>@drawable/pear</item>
+		<item>@drawable/pineapple</item>
+		<item>@drawable/strawberry</item>
+	</array>
+	<array name="icon_furniture">
+		<item>@drawable/bed</item>
+		<item>@drawable/chair</item>
+		<item>@drawable/lamp</item>
+		<item>@drawable/rug</item>
+		<item>@drawable/sofa</item>
+		<item>@drawable/table</item>
+	</array>
+	<array name="icon_nature">
+		<item>@drawable/fire</item>
+		<item>@drawable/flower</item>
+		<item>@drawable/forest</item>
+		<item>@drawable/grass</item>
+		<item>@drawable/island</item>
+		<item>@drawable/lake</item>
+		<item>@drawable/leaf</item>
+		<item>@drawable/mountain</item>
+		<item>@drawable/river</item>
+		<item>@drawable/sea</item>
+		<item>@drawable/stone</item>
+		<item>@drawable/tree</item>
+		<item>@drawable/water</item>
+		<item>@drawable/wood</item>
+	</array>
+	<array name="icon_numbers">
+		<item>@drawable/one</item>
+		<item>@drawable/two</item>
+		<item>@drawable/three</item>
+		<item>@drawable/four</item>
+		<item>@drawable/five</item>
+		<item>@drawable/six</item>
+		<item>@drawable/seven</item>
+		<item>@drawable/eight</item>
+		<item>@drawable/nine</item>
+		<item>@drawable/ten</item>
+		<item>@drawable/hundered</item>
+		<item>@drawable/thousand</item>
+		<item>@drawable/ten_thousand</item>
+		<item>@drawable/million</item>
+	</array>
+	<array name="icon_restaurant">
+		<item>@drawable/bill</item>
+		<item>@drawable/chopsticks</item>
+		<item>@drawable/glass</item>
+		<item>@drawable/knife_and_fork</item>
+		<item>@drawable/menu</item>
+		<item>@drawable/plate</item>
+		<item>@drawable/restaurant</item>
+		<item>@drawable/spoon</item>
+		<item>@drawable/waiter</item>
+	</array>
+	<array name="icon_toys">
+		<item>@drawable/toy</item>
+		<item>@drawable/ball</item>
+		<item>@drawable/blocks</item>
+		<item>@drawable/crayons</item>
+		<item>@drawable/doll</item>
+		<item>@drawable/teddy_bear</item>
+	</array>
+	<array name="icon_vegetables">
+		<item>@drawable/carrot</item>
+		<item>@drawable/chinese_cabbage</item>
+		<item>@drawable/cucumber</item>
+		<item>@drawable/lettuce</item>
+		<item>@drawable/onion</item>
+		<item>@drawable/potato</item>
+		<item>@drawable/pumpkin</item>
+		<item>@drawable/tomato</item>
+		<item>@drawable/vegetables</item>
+	</array>
+	<array name="icon_vehicles">
+		<item>@drawable/airplane</item>
+		<item>@drawable/bicycle</item>
+		<item>@drawable/bus</item>
+		<item>@drawable/car</item>
+		<item>@drawable/ship</item>
+		<item>@drawable/subway</item>
+		<item>@drawable/taxi</item>
+		<item>@drawable/train</item>
+	</array>
+	<array name="icon_weather_and_space">
+		<item>@drawable/cloud</item>
+		<item>@drawable/cold</item>
+		<item>@drawable/ice</item>
+		<item>@drawable/moon</item>
+		<item>@drawable/rain</item>
+		<item>@drawable/sky</item>
+		<item>@drawable/snow</item>
+		<item>@drawable/sun</item>
+		<item>@drawable/umbrella</item>
+		<item>@drawable/wind</item>
+		<item>@drawable/world</item>
+	</array>
+
+	<string-array name="category_menu">
+		<item>Numbers</item>
+		<item>Colors</item>
+		<item>Directions</item>
+		<item>Countries</item>
+		<item>Nature</item>
+		<item>Weather and Space</item>
+		<item>Animals</item>
+		<item>Toys</item>
+		<item>Furniture</item>
+		<item>Body parts</item>
+		<item>Vehicles</item>
+		<item>Food</item>
+		<item>Vegetables</item>
+		<item>Fruits</item>
+		<item>Drinks</item>
+		<item>Restaurant</item>
+		<item>Clothes</item>
+		<item>Electronics</item>
+	</string-array>
+
+	<array name="ids">
+		<item>@array/icon_numbers</item>
+		<item>@array/de_numbers</item>
+		<item>@array/numbers</item>
+		<item>@array/icon_colors</item>
+		<item>@array/de_colors</item>
+		<item>@array/colors</item>
+		<item>@array/icon_directions</item>
+		<item>@array/de_directions</item>
+		<item>@array/directions</item>
+		<item>@array/icon_countries</item>
+		<item>@array/de_countries</item>
+		<item>@array/countries</item>
+		<item>@array/icon_nature</item>
+		<item>@array/de_nature</item>
+		<item>@array/nature</item>
+		<item>@array/icon_weather_and_space</item>
+		<item>@array/de_weather_and_space</item>
+		<item>@array/weather_and_space</item>
+		<item>@array/icon_animals</item>
+		<item>@array/de_animals</item>
+		<item>@array/animals</item>
+		<item>@array/icon_toys</item>
+		<item>@array/de_toys</item>
+		<item>@array/toys</item>
+		<item>@array/icon_furniture</item>
+		<item>@array/de_furniture</item>
+		<item>@array/furniture</item>
+		<item>@array/icon_body_parts</item>
+		<item>@array/de_body_parts</item>
+		<item>@array/body_parts</item>
+		<item>@array/icon_vehicles</item>
+		<item>@array/de_vehicles</item>
+		<item>@array/vehicles</item>
+		<item>@array/icon_food</item>
+		<item>@array/de_food</item>
+		<item>@array/food</item>
+		<item>@array/icon_vegetables</item>
+		<item>@array/de_vegetables</item>
+		<item>@array/vegetables</item>
+		<item>@array/icon_fruits</item>
+		<item>@array/de_fruits</item>
+		<item>@array/fruits</item>
+		<item>@array/icon_drinks</item>
+		<item>@array/de_drinks</item>
+		<item>@array/drinks</item>
+		<item>@array/icon_restaurant</item>
+		<item>@array/de_restaurant</item>
+		<item>@array/restaurant</item>
+		<item>@array/icon_clothes</item>
+		<item>@array/de_clothes</item>
+		<item>@array/clothes</item>
+		<item>@array/icon_electronics</item>
+		<item>@array/de_electronics</item>
+		<item>@array/electronics</item>
+	</array>
+
+
+	<string-array name="animals">
+		<item>Bird</item>
+		<item>Butterfly</item>
+		<item>Cat</item>
+		<item>Chicken</item>
+		<item>Cow</item>
+		<item>Dog</item>
+		<item>Dragon</item>
+		<item>Duck</item>
+		<item>Elephant</item>
+		<item>Fish</item>
+		<item>Goat</item>
+		<item>Horse</item>
+		<item>Lion</item>
+		<item>Monkey</item>
+		<item>Mouse</item>
+		<item>Pet</item>
+		<item>Pig</item>
+		<item>Rabbit</item>
+		<item>Rat</item>
+		<item>Rooster</item>
+		<item>Sheep</item>
+		<item>Snake</item>
+		<item>Spider</item>
+		<item>Tiger</item>
+	</string-array>
+	<string-array name="body_parts">
+		<item>Arm</item>
+		<item>Eye</item>
+		<item>Face</item>
+		<item>Foot</item>
+		<item>Hand</item>
+		<item>Leg</item>
+		<item>Mouth</item>
+		<item>Nose</item>
+	</string-array>
+	<string-array name="clothes">
+		<item>Coat</item>
+		<item>Glove</item>
+		<item>Hat</item>
+		<item>Scarf</item>
+		<item>Shirt</item>
+		<item>Shoe</item>
+		<item>Skirt</item>
+		<item>Socks</item>
+		<item>Trousers</item>
+	</string-array>
+	<string-array name="colors">
+		<item>Black</item>
+		<item>Blue</item>
+		<item>Brown</item>
+		<item>Green</item>
+		<item>Grey</item>
+		<item>Pink</item>
+		<item>Purple</item>
+		<item>Red</item>
+		<item>White</item>
+		<item>Yellow</item>
+	</string-array>
+	<string-array name="countries">
+		<item>Africa</item>
+		<item>Asia</item>
+		<item>Australia</item>
+		<item>Britain</item>
+		<item>China</item>
+		<item>Europe</item>
+		<item>Germany</item>
+		<item>India</item>
+		<item>Ireland</item>
+		<item>Italy</item>
+		<item>Japan</item>
+		<item>Russia</item>
+		<item>Spain</item>
+		<item>Sweden</item>
+		<item>United States</item>
+	</string-array>
+	<string-array name="directions">
+		<item>Down</item>
+		<item>East</item>
+		<item>Left</item>
+		<item>North</item>
+		<item>Right</item>
+		<item>South</item>
+		<item>Up</item>
+		<item>West</item>
+	</string-array>
+	<string-array name="drinks">
+		<item>Apple Juice</item>
+		<item>Beer</item>
+		<item>Coffee</item>
+		<item>Cola</item>
+		<item>Milk</item>
+		<item>Mineral Water</item>
+		<item>Orange Juice</item>
+		<item>Tea</item>
+		<item>Wine</item>
+	</string-array>
+	<string-array name="electronics">
+		<item>Camera</item>
+		<item>CD</item>
+		<item>Computer</item>
+		<item>Keyboard</item>
+		<item>Mobile Phone</item>
+		<item>Radio</item>
+		<item>Telephone</item>
+		<item>TV</item>
+	</string-array>
+	<string-array name="food">
+		<item>Bread</item>
+		<item>Cheese</item>
+		<item>Cooked Rice</item>
+		<item>Dumplings</item>
+		<item>Egg</item>
+		<item>Fried Rice</item>
+		<item>Ham</item>
+		<item>Hamburger</item>
+		<item>Meat</item>
+		<item>Pizza</item>
+		<item>Salad</item>
+		<item>Sausage</item>
+		<item>Soup</item>
+	</string-array>
+	<string-array name="fruits">
+		<item>Apple</item>
+		<item>Banana</item>
+		<item>Fruit</item>
+		<item>Grapes</item>
+		<item>Lemon</item>
+		<item>Melon</item>
+		<item>Orange</item>
+		<item>Peach</item>
+		<item>Pear</item>
+		<item>Pineapple</item>
+		<item>Strawberry</item>
+	</string-array>
+	<string-array name="furniture">
+		<item>Bed</item>
+		<item>Chair</item>
+		<item>Lamp</item>
+		<item>Rug</item>
+		<item>Sofa</item>
+		<item>Table</item>
+	</string-array>
+	<string-array name="nature">
+		<item>Fire</item>
+		<item>Flower</item>
+		<item>Forest</item>
+		<item>Grass</item>
+		<item>Island</item>
+		<item>Lake</item>
+		<item>Leaf</item>
+		<item>Mountain</item>
+		<item>River</item>
+		<item>Sea</item>
+		<item>Stone</item>
+		<item>Tree</item>
+		<item>Water</item>
+		<item>Wood</item>
+	</string-array>
+	<string-array name="numbers">
+		<item>One</item>
+		<item>Two</item>
+		<item>Three</item>
+		<item>Four</item>
+		<item>Five</item>
+		<item>Six</item>
+		<item>Seven</item>
+		<item>Eight</item>
+		<item>Nine</item>
+		<item>Ten</item>
+		<item>Hundred</item>
+		<item>Thousand</item>
+		<item>Ten Thousand</item>
+		<item>Million</item>
+	</string-array>
+	<string-array name="restaurant">
+		<item>Bill</item>
+		<item>Chopsticks</item>
+		<item>Glass</item>
+		<item>Knife and Fork</item>
+		<item>Menu</item>
+		<item>Plate</item>
+		<item>Restaurant</item>
+		<item>Spoon</item>
+		<item>Waiter</item>
+	</string-array>
+	<string-array name="toys">
+		<item>Toy</item>
+		<item>Ball</item>
+		<item>Blocks</item>
+		<item>Crayons</item>
+		<item>Doll</item>
+		<item>Teddy Bear</item>
+	</string-array>
+	<string-array name="vegetables">
+		<item>Carrot</item>
+		<item>Chinese Cabbage</item>
+		<item>Cucumber</item>
+		<item>Lettuce</item>
+		<item>Onion</item>
+		<item>Potato</item>
+		<item>Pumpkin</item>
+		<item>Tomato</item>
+		<item>Vegetables</item>
+	</string-array>
+	<string-array name="vehicles">
+		<item>Airplane</item>
+		<item>Bicycle</item>
+		<item>Bus</item>
+		<item>Car</item>
+		<item>Ship</item>
+		<item>Subway</item>
+		<item>Taxi</item>
+		<item>Train</item>
+	</string-array>
+	<string-array name="weather_and_space">
+		<item>Cloud</item>
+		<item>Cold</item>
+		<item>Ice</item>
+		<item>Moon</item>
+		<item>Rain</item>
+		<item>Sky</item>
+		<item>Snow</item>
+		<item>Sun</item>
+		<item>Umbrella</item>
+		<item>Wind</item>
+		<item>World</item>
+	</string-array>
+
+	<string-array name="de_animals">
+		<item>Die Vogel</item>
+		<item>Der Schmetterling</item>
+		<item>Die Katze</item>
+		<item>Das Huhn</item>
+		<item>Die Kuh</item>
+		<item>Der Hund</item>
+		<item>Der Drache</item>
+		<item>Die Ente</item>
+		<item>Der Elefant</item>
+		<item>Die Fische</item>
+		<item>Die Ziege</item>
+		<item>Das Pferd</item>
+		<item>Der Löwe</item>
+		<item>Der Affe</item>
+		<item>Der Maus</item>
+		<item>Das Haustier</item>
+		<item>Das Schwein</item>
+		<item>Das Kaninchen</item>
+		<item>Die Ratte</item>
+		<item>Der Hahn</item>
+		<item>Das Schaf</item>
+		<item>Die Schlange</item>
+		<item>Die Spinne</item>
+		<item>Der Tiger</item>
+	</string-array>
+	<string-array name="de_body_parts">
+		<item>Der Arm</item>
+		<item>Das Auge</item>
+		<item>Das Gesicht</item>
+		<item>Der Fuß</item>
+		<item>Die Hand</item>
+		<item>Das Bein</item>
+		<item>Der Mund</item>
+		<item>Die Nase</item>
+	</string-array>
+	<string-array name="de_clothes">
+		<item>Der Mantel</item>
+		<item>Der Handschuh</item>
+		<item>Der Hut</item>
+		<item>Der Schal</item>
+		<item>Das Hemd</item>
+		<item>Der Schuh</item>
+		<item>Der Rock</item>
+		<item>Die Socken</item>
+		<item>Die Hosen</item>
+	</string-array>
+	<string-array name="de_colors">
+		<item>schwarz</item>
+		<item>blau</item>
+		<item>braun</item>
+		<item>grün</item>
+		<item>grau</item>
+		<item>rosa</item>
+		<item>lila</item>
+		<item>rot</item>
+		<item>weiß</item>
+		<item>gelb</item>
+	</string-array>
+	<string-array name="de_countries">
+		<item>Afrika</item>
+		<item>Asien</item>
+		<item>Australien</item>
+		<item>Britannien</item>
+		<item>China</item>
+		<item>Europa</item>
+		<item>Deutschland</item>
+		<item>Indien</item>
+		<item>Irland</item>
+		<item>Italien</item>
+		<item>Japan</item>
+		<item>Russland</item>
+		<item>Spanien</item>
+		<item>Schweden</item>
+		<item>Vereinigte Staaten</item>
+	</string-array>
+	<string-array name="de_directions">
+		<item>nach unten</item>
+		<item>Der Osten</item>
+		<item>Die Linke</item>
+		<item>Der Norden</item>
+		<item>Die Rechte</item>
+		<item>Der Süden</item>
+		<item>nach oben</item>
+		<item>Der Westen</item>
+	</string-array>
+	<string-array name="de_drinks">
+		<item>Der Apfelsaft</item>
+		<item>Das Bier</item>
+		<item>Die Kaffee</item>
+		<item>Die Cola</item>
+		<item>Die Milch</item>
+		<item>Das Mineralwasser</item>
+		<item>Der Orangensaft</item>
+		<item>Die Tea</item>
+		<item>Das Wein</item>
+	</string-array>
+	<string-array name="de_electronics">
+		<item>Die Kamera</item>
+		<item>Die CD</item>
+		<item>Die Computer</item>
+		<item>Die Tastatur</item>
+		<item>Das Handy</item>
+		<item>Die Funk</item>
+		<item>Das Telefon</item>
+		<item>Das Fernsehgerät</item>
+	</string-array>
+	<string-array name="de_food">
+		<item>Das Brot</item>
+		<item>Der Käse</item>
+		<item>Der Gekochte Reis</item>
+		<item>Die Knödel</item>
+		<item>Das Ei</item>
+		<item>Die Fried Rice</item>
+		<item>Der Schinken</item>
+		<item>Die Hamburger</item>
+		<item>Das Fleisch</item>
+		<item>Die Pizza</item>
+		<item>Der Salat</item>
+		<item>Die Wurst</item>
+		<item>Die Suppe</item>
+	</string-array>
+	<string-array name="de_fruits">
+		<item>Das Apfel</item>
+		<item>Die Banane</item>
+		<item>Die Frucht</item>
+		<item>Die Trauben</item>
+		<item>Die Zitrone</item>
+		<item>Die Melone</item>
+		<item>Die orange</item>
+		<item>Die Pfirsich</item>
+		<item>Die Birne</item>
+		<item>Die Ananas</item>
+		<item>Die Erdbeere</item>
+	</string-array>
+	<string-array name="de_furniture">
+		<item>Das Bett</item>
+		<item>Der Vorsitzende</item>
+		<item>Die Lampe</item>
+		<item>Der Teppich</item>
+		<item>Das Sofa</item>
+		<item>Die Tabelle</item>
+	</string-array>
+	<string-array name="de_nature">
+		<item>Das Feuer</item>
+		<item>Der Blumen</item>
+		<item>Der Wald</item>
+		<item>Das Gras</item>
+		<item>Die Insel</item>
+		<item>Der See</item>
+		<item>Das Blatt</item>
+		<item>Der Berg</item>
+		<item>Der Fluss</item>
+		<item>Das Meer</item>
+		<item>Der Stein</item>
+		<item>Der Baum</item>
+		<item>Das Wasser</item>
+		<item>Das Holz</item>
+	</string-array>
+	<string-array name="de_numbers">
+		<item>Ein</item>
+		<item>Zwei</item>
+		<item>Drei</item>
+		<item>Vier</item>
+		<item>Fünf</item>
+		<item>Sechs</item>
+		<item>Sieben</item>
+		<item>Acht</item>
+		<item>Neun</item>
+		<item>Zehn</item>
+		<item>Hundert</item>
+		<item>Tausend</item>
+		<item>Zehntausend</item>
+		<item>Million</item>
+	</string-array>
+	<string-array name="de_restaurant">
+		<item>Die Rechnung</item>
+		<item>Das Stäbchen</item>
+		<item>Das Glas</item>
+		<item>Die Messer und Gabel</item>
+		<item>Die Menü</item>
+		<item>Die Platte</item>
+		<item>Das Restaurant</item>
+		<item>Der Löffel</item>
+		<item>Die Kellner</item>
+	</string-array>
+	<string-array name="de_toys">
+		<item>Das Spielzeug</item>
+		<item>Die Ball</item>
+		<item>Die Blöcke</item>
+		<item>Die Buntstifte</item>
+		<item>Die Puppe</item>
+		<item>Die Teddy Bear</item>
+	</string-array>
+	<string-array name="de_vegetables">
+		<item>Die Karotte</item>
+		<item>Der Chinakohl</item>
+		<item>Die Gurke</item>
+		<item>Der Salat</item>
+		<item>Die Zwiebel</item>
+		<item>Die Kartoffel</item>
+		<item>Der Kürbis</item>
+		<item>Die Tomate</item>
+		<item>Das Gemüse</item>
+	</string-array>
+	<string-array name="de_vehicles">
+		<item>Das Flugzeug</item>
+		<item>Die Fahrrad</item>
+		<item>Der Bus</item>
+		<item>Die Auto</item>
+		<item>Das Schiff</item>
+		<item>Die U-Bahn</item>
+		<item>Das Taxi</item>
+		<item>Der Zug</item>
+	</string-array>
+	<string-array name="de_weather_and_space">
+		<item>Die Wolke</item>
+		<item>Der Kälte</item>
+		<item>Das Eis</item>
+		<item>Der Mond</item>
+		<item>Der Regen</item>
+		<item>Der Himmel</item>
+		<item>Der Schnee</item>
+		<item>Die Sonne</item>
+		<item>Der Regenschirm</item>
+		<item>Der Wind</item>
+		<item>Die Welt</item>
+	</string-array>
+
+</resources>

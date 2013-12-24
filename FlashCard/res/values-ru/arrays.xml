@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="category_menu">
+		<item>Цифры</item>
+		<item>Цвета</item>
+		<item>Направление</item>
+		<item>Страны</item>
+		<item>Природа</item>
+		<item>Погода</item>
+		<item>Животные</item>
+		<item>Игрушки</item>
+		<item>Мебель</item>
+		<item>Часть тела</item>
+		<item>Транспорт</item>
+		<item>Еда</item>
+		<item>Овощи</item>
+		<item>Фрукты</item>
+		<item>Напитки</item>
+		<item>Ресторан</item>
+		<item>Одежда</item>
+		<item>Электроника</item>
+	</string-array>
+
+	<string-array name="animals">
+		<item>Bird</item>
+		<item>Butterfly</item>
+		<item>Cat</item>
+		<item>Цеплёнок</item>
+		<item>Cow</item>
+		<item>Dog</item>
+		<item>Dragon</item>
+		<item>Duck</item>
+		<item>Elephant</item>
+		<item>Fish</item>
+		<item>Goat</item>
+		<item>Horse</item>
+		<item>Lion</item>
+		<item>Monkey</item>
+		<item>Mouse</item>
+		<item>Pet</item>
+		<item>Pig</item>
+		<item>Rabbit</item>
+		<item>Rat</item>
+		<item>Rooster</item>
+		<item>Sheep</item>
+		<item>Snake</item>
+		<item>Spider</item>
+		<item>Tiger</item>
+	</string-array>
+</resources>

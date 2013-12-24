@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.FlashCard"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="14"/>
+
+    <!-- Permissions for Metrica `START` -->
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<!-- Permissions for Metrica `END` -->
+
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+		<activity android:label="@string/app_name" android:noHistory="true" android:name=".CardTestActivity"/>
+
+        <!-- Components for Metrica `START` -->
+        <meta-data android:name="metrica:api:key" android:value="14209" />
+
+        <service android:name="com.yandex.metrica.MetricaService" android:process=":Metrica" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.yandex.metrica.IMetricaService" />
+                <data android:scheme="metrica" />
+            </intent-filter>
+
+            <meta-data android:name="metrica:api:level" android:value="1" />
+        </service>
+
+        <receiver android:name="com.yandex.metrica.CampaignReceiver" android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.yandex.metrica.MetricaEventHandler" >
+            <intent-filter>
+                <action android:name="com.yandex.metrica.intent.action.SYNC" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_DATA_CLEARED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+                android:name="com.example.FlashCard.provider.MetricaContentProvider"
+                android:authorities="com.yandex.sample.metrica.MetricaContentProvider"
+                android:exported="true" />
+        <!-- Components for Metrica `END` -->
+    </application>
+</manifest>

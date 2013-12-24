@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">О приложении</string>
+    <string name="clear">Очистить</string>
+    <string name="time">Время</string>
+    <string name="correct_answer">Правильные ответы</string>
+    <string name="category">Категории</string>
+
+</resources>
