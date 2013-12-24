@@ -28,12 +28,13 @@
                 android:layout_height="fill_parent"
                 android:id="@+id/imageButton" android:layout_weight="1" android:layout_gravity="center"
 				android:scaleType="centerInside" android:src="@drawable/ok" android:adjustViewBounds="false"
-				android:baselineAlignBottom="false" android:clickable="false" android:background="#ffffff"/>
+				android:baselineAlignBottom="false" android:clickable="false" android:background="#ffffff"
+				android:onClick="onClickOk"/>
         <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/imageButton2" android:layout_weight="1" android:layout_gravity="center"
 				android:scaleType="centerInside" android:src="@drawable/remove" android:clickable="false"
-				android:background="#ffffff"/>
+				android:background="#ffffff" android:onClick="onClickRemove"/>
     </LinearLayout>
 </LinearLayout>

@@ -49,7 +49,7 @@ public class CardTestActivity extends Activity {
 		viewFlipper =  (ViewFlipper) findViewById(R.id.viewFlipper);
 		txtPages = (TextView)findViewById(R.id.pagetextView);
 
-		count = 0;
+		count = 1;
 
 		time = System.currentTimeMillis();
 		View view = inflater.inflate(R.layout.card_path1, null);
@@ -93,21 +93,12 @@ public class CardTestActivity extends Activity {
 				return true;*/
 				switch (event.getAction()) {
 					case MotionEvent.ACTION_UP:
-						count++;
 
-						if (count % 2 == 0 ) {
-							count_correct_answer++;
-							if (count / 2 == len) {
-								setContentView(R.layout.cardtest_end);
-								TextView text =  (TextView) findViewById(R.id.textView);
-								text.setText(getResources().getText(R.string.time) + " : " + (float)((System.currentTimeMillis() - time)/10)/100 + " сек \n"
-										+ getResources().getText(R.string.correct_answer) +  " : " + count_correct_answer );
-								return true;
-							}
-							next_page();
-							updateTextView();
-							return true;
-						} else {
+
+						if (count % 2 == 1) {
+							count++;
+
+
 							viewFlipper.showNext();
 							updateTextView();
 							return true;
@@ -180,6 +171,38 @@ public class CardTestActivity extends Activity {
 		startActivity(intent);
 	}
 
+	public void onClickOk(View v) {
+		count++;
+		count_correct_answer++;
+		if ((count - 1) / 2 == len ) {
+			count = 0;
+			setContentView(R.layout.cardtest_end);
+			TextView text =  (TextView) findViewById(R.id.textView);
+			text.setText(getResources().getText(R.string.time) + " : " + (float) ((System.currentTimeMillis() - time) / 10) / 100 + " сек \n"
+					+ getResources().getText(R.string.correct_answer) + " : " + count_correct_answer);
+
+
+		}
+		next_page();
+		updateTextView();
+
+	}
+
+	public void onClickRemove(View v) {
+		count++;
+		if ((count - 1) / 2 == len ) {
+			count = 0;
+			setContentView(R.layout.cardtest_end);
+			TextView text =  (TextView) findViewById(R.id.textView);
+			text.setText(getResources().getText(R.string.time) + " : " + (float) ((System.currentTimeMillis() - time) / 10) / 100 + " сек \n"
+					+ getResources().getText(R.string.correct_answer) + " : " + count_correct_answer);
+
+		}
+		next_page();
+		updateTextView();
+
+	}
+
 	/*public void onClickButtonNextTest(View v){
 		Intent intent = new Intent(CardTestActivity.this, CardTestActivity.class);
 		TypedArray ar = getResources().obtainTypedArray(R.array.ids);
@@ -221,7 +244,7 @@ public class CardTestActivity extends Activity {
 
 	private void updateTextView()
 	{
-		String pages = String.format("%1$s/%2$s", 1 + count / 2, len);
+		String pages = String.format("%1$s/%2$s",  (count +1)/ 2, len);
 		txtPages.setText(pages);
 	}
 }
